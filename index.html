@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>МНИ МЕНЯ — студия массажа и Head Spa в Минске</title>
+  <meta name="description" content="Массаж, Head Spa, спа и коррекция фигуры в Минске. Две студии: ул. Филимонова 20 и пр. Газеты Правда 20. −20% на первый визит на Петровщине. Онлайн-запись.">
+  <meta name="theme-color" content="#efe9e1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" href="fonts/SoyuzGrotesk-Bold.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <a href="#top" class="logo" aria-label="МНИ МЕНЯ — на главную"><span>мни</span><span>меня</span></a>
+  <nav class="nav" aria-label="Разделы">
+    <a href="#services">Услуги</a>
+    <a href="#headspa">Head Spa</a>
+    <a href="#prices">Абонементы</a>
+    <a href="#studios">Студии</a>
+  </nav>
+  <a class="btn btn--sm" href="https://n2476494.yclients.com/" target="_blank" rel="noopener">Записаться<i aria-hidden="true">→</i></a>
+  <button class="burger" aria-label="Меню" aria-expanded="false"><i></i><i></i></button>
+</header>
+
+<main id="top">
+
+  <!-- ПЕРВЫЙ ЭКРАН -->
+  <section class="hero">
+    <div class="hero__text">
+      <p class="label reveal">Студия массажа · Минск</p>
+      <h1 class="hero__title">
+        <span class="reveal">Час, когда</span>
+        <span class="reveal">можно <em>ничего</em></span>
+        <span class="reveal">не делать</span>
+      </h1>
+      <p class="hero__lead reveal">Массаж, Head Spa и уход за телом. Приглушённый свет, тёплые руки мастера и никаких уведомлений — отключитесь на час от новостей и рабочих дел.</p>
+      <div class="actions reveal">
+        <a class="btn" href="https://n2476494.yclients.com/" target="_blank" rel="noopener">Записаться онлайн<i aria-hidden="true">→</i></a>
+        <a class="link" href="https://ig.me/m/mnimenya.by" target="_blank" rel="noopener">Написать в Direct</a>
+      </div>
+      <p class="hero__offer reveal"><b>−20%</b> на первый визит в новую студию на Петровщине</p>
+    </div>
+
+    <figure class="hero__media curtain">
+      <img src="img/hero.jpg" alt="Мастер делает массаж спины в мягком фиолетовом свете" width="640" height="853" fetchpriority="high" data-parallax="0.06">
+      <figcaption class="breath" aria-hidden="true">
+        <span class="breath__dot"></span>
+        <span class="breath__word breath__word--in">вдох</span>
+        <span class="breath__word breath__word--out">выдох</span>
+      </figcaption>
+    </figure>
+  </section>
+
+  <!-- ВСТУПЛЕНИЕ -->
+  <section class="intro">
+    <svg class="squiggle" viewBox="0 0 1200 220" preserveAspectRatio="none" aria-hidden="true">
+      <path pathLength="1" d="M-10 150 C 90 40, 190 40, 240 120 S 360 210, 420 130 S 520 20, 600 90 S 700 200, 790 120 C 840 75, 880 60, 930 90 S 1010 190, 1080 120 S 1170 40, 1215 80"/>
+    </svg>
+    <p class="intro__text reveal">Нормально прийти с зажимами, которые копились годами. Нормально уснуть на&nbsp;релакс-массаже. Мы&nbsp;не&nbsp;торопим: можно и&nbsp;час, и&nbsp;полтора.</p>
+    <p class="intro__sign reveal">— студия «Мни меня»</p>
+  </section>
+
+  <!-- УСЛУГИ -->
+  <section class="services" id="services">
+    <div class="services__media" aria-hidden="true"><!-- фото подставляются из script.js --></div>
+    <div class="services__list">
+      <p class="label reveal">Услуги</p>
+      <h2 class="h2 reveal">Что выбрать</h2>
+      <ul class="svc" id="svc-list"></ul>
+    </div>
+  </section>
+
+  <!-- HEAD SPA -->
+  <section class="headspa" id="headspa">
+    <figure class="headspa__media curtain">
+      <img src="img/svc-headspa.jpg" alt="Массаж головы и шеи в студии" width="538" height="672" loading="lazy" data-parallax="0.08">
+    </figure>
+    <div class="headspa__body">
+      <p class="label reveal">Ритуал студии</p>
+      <h2 class="h2 reveal">Head Spa</h2>
+      <p class="headspa__meta reveal">12 ступеней · 70 минут · 140 BYN</p>
+      <p class="reveal">Китайский массаж головы и тёплые струи воды. Голова — одна из главных зон напряжения: после ритуала уходят спазмы, становится легче думать и проще уснуть.</p>
+      <ol class="flow" id="flow">
+        <li>Китайский массаж головы</li>
+        <li>Пенный массаж</li>
+        <li>Пилинг кожи головы</li>
+        <li>Массаж криосферами</li>
+        <li>Массаж кистей</li>
+        <li>Водопад</li>
+        <li>Ароматерапия</li>
+        <li>Паровая баня для волос</li>
+      </ol>
+      <div class="actions reveal">
+        <a class="btn btn--light" href="https://n2476494.yclients.com/" target="_blank" rel="noopener">Записаться на Head Spa<i aria-hidden="true">→</i></a>
+        <a class="link link--light" href="#gift">Подарить сертификатом</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПЕРВЫЙ ВИЗИТ -->
+  <section class="visit">
+    <p class="label reveal">Первый визит</p>
+    <h2 class="h2 reveal">Как всё проходит</h2>
+    <ol class="visit__steps">
+      <li class="reveal"><h3>Запись</h3><p>Онлайн или в Direct. Выбираете студию, мастера и время.</p></li>
+      <li class="reveal"><h3>Пара слов</h3><p>Расскажите мастеру, что беспокоит: спина после офиса, тренировки или просто усталость.</p></li>
+      <li class="reveal"><h3>Сеанс</h3><p>Телефон можно оставить в сумке — ближайший час он вам не нужен.</p></li>
+      <li class="reveal"><h3>После</h3><p>От релакса легко уже после первого раза. Коррекции нужен курс — обычно 5–7 процедур.</p></li>
+    </ol>
+  </section>
+
+  <!-- АБОНЕМЕНТЫ + СЕРТИФИКАТ -->
+  <section class="offers" id="prices">
+    <div class="subs">
+      <p class="label reveal">Абонементы</p>
+      <h2 class="h2 reveal">Курсом — выгоднее</h2>
+      <dl class="subs__table">
+        <div class="reveal"><dt>5–9 сеансов</dt><dd>−7%</dd></div>
+        <div class="reveal"><dt>10–14 сеансов</dt><dd>−12%</dd></div>
+        <div class="reveal"><dt>15 и больше</dt><dd>−15%</dd></div>
+      </dl>
+      <a class="link reveal" href="https://ig.me/m/mnimenya.by" target="_blank" rel="noopener">Подобрать абонемент в Direct</a>
+    </div>
+
+    <div class="gift reveal" id="gift">
+      <div class="gift__card">
+        <span class="logo logo--big"><span>мни</span><span>меня</span></span>
+        <p class="gift__name">Подарочный<br>сертификат</p>
+      </div>
+      <h3>Подарите час тишины</h3>
+      <p>На сумму или на процедуру — массаж, Head Spa, спа. Оформим в Direct, забрать можно в любой студии.</p>
+      <a class="btn" href="https://ig.me/m/mnimenya.by" target="_blank" rel="noopener">Заказать сертификат<i aria-hidden="true">→</i></a>
+    </div>
+  </section>
+
+  <!-- МАСТЕРА -->
+  <section class="team">
+    <div class="team__head">
+      <div>
+        <p class="label reveal">Мастера</p>
+        <h2 class="h2 reveal">Руки, которым доверяют</h2>
+      </div>
+      <blockquote class="reveal">«Массажист — это медицинская или спортивная специальность, а&nbsp;не&nbsp;гендерная история. Для мастера ваше тело — мышцы и&nbsp;суставы, с&nbsp;которыми нужно работать».</blockquote>
+    </div>
+    <div class="team__grid" id="team-list"></div>
+  </section>
+
+  <!-- ВОПРОСЫ -->
+  <section class="faq">
+    <div>
+      <p class="label reveal">Вопросы</p>
+      <h2 class="h2 reveal">Часто спрашивают</h2>
+    </div>
+    <div class="faq__list" id="faq-list"></div>
+  </section>
+
+  <!-- СТУДИИ -->
+  <section class="studios" id="studios">
+    <p class="label reveal">Где мы</p>
+    <h2 class="h2 reveal">Две студии в Минске</h2>
+    <div class="studios__grid">
+      <article class="studio">
+        <figure class="studio__img curtain"><img src="img/studio-filimonova.jpg" alt="Кабинет студии на Филимонова" width="643" height="442" loading="lazy" data-parallax="0.05"></figure>
+        <h3 class="reveal">ул. Филимонова, 20</h3>
+        <p class="reveal">Первая студия — тёплый свет, бархатные шторы и та атмосфера, что в наших видео.</p>
+        <a class="link reveal" href="https://yandex.by/maps/?text=Минск, ул. Филимонова 20" target="_blank" rel="noopener">Как добраться</a>
+      </article>
+      <article class="studio">
+        <figure class="studio__img curtain"><img src="img/studio-pravda.jpg" alt="Зона ожидания в студии на Газеты Правда" width="643" height="442" loading="lazy" data-parallax="0.05"></figure>
+        <h3 class="reveal">пр. Газеты Правда, 20 <span class="tag">новая</span></h3>
+        <p class="reveal">5 минут от метро «Петровщина». Здесь же работает косметолог. Первый визит — со скидкой 20%.</p>
+        <a class="link reveal" href="https://yandex.by/maps/?text=Минск, пр. Газеты Правда 20" target="_blank" rel="noopener">Как добраться</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ФИНАЛ -->
+  <section class="final">
+    <div class="final__body">
+      <h2 class="reveal">Выдохните.<br>Остальное — <em>наша работа</em></h2>
+      <div class="actions reveal">
+        <a class="btn btn--light" href="https://n2476494.yclients.com/" target="_blank" rel="noopener">Записаться онлайн<i aria-hidden="true">→</i></a>
+        <a class="link link--light" href="https://ig.me/m/mnimenya.by" target="_blank" rel="noopener">Написать в Direct</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <a href="#top" class="logo"><span>мни</span><span>меня</span></a>
+  <nav class="footer__links">
+    <a href="https://www.instagram.com/mnimenya.by/" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://n2476494.yclients.com/" target="_blank" rel="noopener">Онлайн-запись</a>
+    <a href="#studios">Адреса</a>
+  </nav>
+  <p class="footer__mark reveal" aria-hidden="true"><span>мни</span><span>меня</span></p>
+  <!-- TODO: реквизиты ИП/ООО — наименование, УНП, юр. адрес, сведения о регистрации (обязательно для сайта в РБ) -->
+  <p class="footer__legal">Наименование · УНП ________ · Минск · © <span id="year"></span></p>
+</footer>
+
+<a class="mobile-cta" href="https://n2476494.yclients.com/" target="_blank" rel="noopener">Записаться онлайн</a>
+
+<script src="script.js"></script>
+</body>
+</html>
